@@ -13,6 +13,8 @@
 
 Hash выбрал так как простая реализация и можно использовать GPU ускорение (в теории)
 
+cmd/flow_test.go тестирует весь фло сервер - клиент для наглядности
+
 Greetings.
 
 The simplest thing that came to mind is the generation of blocks based on the current unixtime.
@@ -27,3 +29,6 @@ The server is single-client, again, to save time.(No info in task)
 (It is necessary to add a layer between the blockchain and the server to store separate data on clients at least)
 
 Hash was chosen because it is a simple implementation and you can use GPU acceleration (in theory)
+
+cmd/flow_test.go is testing all flow of server - client
+
